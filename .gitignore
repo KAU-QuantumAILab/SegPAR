@@ -1,0 +1,11 @@
+__pycache__/
+datasets/
+test/
+results/
+ckpt/
+*.json
+mmseg/.mim/
+*.zip
+pretrain/
+*.pth
+*.png
