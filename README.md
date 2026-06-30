@@ -1,12 +1,12 @@
-# SegPAR
+# SegPAR: Class-Centric Decision-Based Sparse Attack for Semantic Segmentation
 [[Paper](#citation)] [[Supp](#supplementary-material)] [[Code](https://github.com/KAU-QuantumAILab/SegPAR)]
 
-The official implementation of **[ECCV 2026] SegPAR**.
+The official implementation of **[ECCV 2026] "SegPAR: Class-Centric Decision-Based Sparse Attack for Semantic Segmentation"**.
 
 Paper and supplementary links will be updated after the public release.
 
 ## Introduction
-SegPAR is a class-centric semantic segmentation attack framework for studying sparse adversarial perturbations on dense prediction models. The repository includes attack code, MMSegmentation-based model configurations, dataset sampling manifests, and a Docker runtime for reproducing the experiments.
+SegPAR is a class-centric decision-based sparse attack framework for studying adversarial perturbations on semantic segmentation models. The repository includes attack code, MMSegmentation-based model configurations, dataset sampling manifests, and a Docker runtime for reproducing the experiments.
 
 The current release supports experiments on VOC2012, Cityscapes, ADE20K, and CT Abdomen settings. It includes the `reg` action space used by SegPAR, as well as the `standard` action space used by the baseline setting in `run.sh`.
 
@@ -142,7 +142,7 @@ If you find this repository useful in your research, please cite the SegPAR pape
 
 ```bibtex
 @inproceedings{segpar2026,
-  title     = {SegPAR},
+  title     = {SegPAR: Class-Centric Decision-Based Sparse Attack for Semantic Segmentation},
   booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
   year      = {2026}
 }
